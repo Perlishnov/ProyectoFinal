@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gourmet || Inicio</title>
+
+  <!-- //Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- estilos -->
+  <link rel="stylesheet" href="./Estilos/style.css" />
+</head>
+
+<body>
+  <!-- section header  -->
+  <header class="header">
+    <a href="" class="logo"><i class="fas fa-shopping-basket"></i>Gourmet</a>
+    <nav class="navbar">
+      <a href="#home">Inicio</a>
+      <a href="#AboutUs">Sobre Nosotros</a>
+      <a href="#features">Caracteristicas</a>
+      <a href="#products">Productos</a>
+      <a href="#userLogin">Cliente</a>
+    </nav>
+    <div class="icons">
+      <div class="fas fa-user" id="login-btn"></div>
+      <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+    <form action="./php/InicioSesionAdministradores.php" class="login-form">
+      <h3>Inicie sesion</h3>
+      <input type="text" placeholder="Nombre" class="box" name="Nombre" />
+      <input type="text" placeholder="Apellido" class="box" name="Apellido" />
+      <input type="password" placeholder="Clave" class="box" name="Clave" />
+      <input type="submit" value="login now" class="btn" />
+    </form>
+  </header>
+
+  <!-- home section start -->
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Productos <span>organicos</span> y frescos para usted</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+        temporibus atque iure, doloribus voluptates nisi.
+      </p>
+      <a href="#" class="btn">Compra ahora</a>
+    </div>
+  </section>
+
+  <!-- AboutUs section end -->
+  <section class="AboutUs" id="AboutUs">
+    <h1 class="heading">Sobre<span> Nosotros</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="./Imagenes/mision.jpg" alt="" />
+        <h3>Mision</h3>
+        <p>
+          Proveer comida y servicios con los mejores estandares de calidad a
+          buen precio
+        </p>
+      </div>
+      <div class="box">
+        <img src="./Imagenes/vision.jpg" alt="" />
+        <h3>Vision</h3>
+        <p>
+          Convertirse en el aliado nutricional de las personas. Dando
+          productos saludables a un buen precio
+        </p>
+      </div>
+      <div class="box">
+        <img src="./Imagenes/valores.jpg" alt="" />
+        <h3>Valores</h3>
+        <p>
+          Conexion con la naturaleza, excelencia, responsabilidad y
+          puntualidad
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- AboutUs section end -->
+  <!-- home section end -->
+  <!-- features section start -->
+  <section class="features" id="features">
+    <h1 class="heading">Nuestros<span>Beneficios</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="./Imagenes/feature-img-1.png" alt="" />
+        <h3>Fresco y organico</h3>
+        <p>
+          Proveemos productos que vienen de la naturaleza y son amigables con
+          la salud de las personas
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+      <div class="box">
+        <img src="./Imagenes/feature-img-2.png" alt="" />
+        <h3>Delivery gratis</h3>
+        <p>
+          Tenemos delivery sin cargos adicionales manteniendo una excelente
+          relación-calidad precio
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+      <div class="box">
+        <img src="./Imagenes/feature-img-3.png" alt="" />
+        <h3>Delivery rápido</h3>
+        <p>
+          Tenemos un sistema muy eficiente para la entrega de pedido lo que
+          garantiza que estos llegen puntuales
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+  </section>
+  <!-- features section end -->
+  <!-- products section start -->
+  <section class="products" id="products">
+    <h1 class="heading">Nuestros <span>Productos</span></h1>
+    <div class="wrapper">
+      <div class="box">
+        <img src="./Imagenes/product-1.png" alt="" />
+        <h3>Naranja fresca</h3>
+        <div class="price">$4.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./Imagenes/product-2.png" alt="" />
+        <h3>cebolla fresca</h3>
+        <div class="price">$4.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./Imagenes/product-3.png" alt="" />
+        <h3>carne fresca</h3>
+        <div class="price">$4.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./Imagenes/product-4.png" alt="" />
+        <h3>repollo Fresco</h3>
+        <div class="price">$4.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./Imagenes/product-5.png" alt="" />
+        <h3>papa fresca</h3>
+        <div class="price">$4.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./Imagenes/product-6.png" alt="" />
+        <h3>aguacate fresco</h3>
+        <div class="price">$4.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- user login section start -->
+  <!-- userLogin section start -->
+  <section class="userLogin" id="userLogin">
+    <h1 class="heading">Conviertase en nuestro<span>Cliente</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="./Imagenes/Cliente.jpg" alt="" />
+      </div>
+      <div class="box">
+        <form action="./php/registrarUsuario.php" method="post">
+          <h3>Formulario</h3>
+          <div class="field">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" pattern="[A-Za-z]{1,20}">
+          </div>
+          <div class="field">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" pattern="[A-Za-z]{1,20}">
+          </div>
+          <div class="field">
+            <label for="correo">Correo</label>
+            <input type="email" name="correo">
+          </div>
+          <div class="field">
+            <label for="correo">mensaje</label>
+            <textarea class="mensaje" name="mensaje" cols="28" rows="5"></textarea>
+          </div>
+          <input type="submit"" class=" btn" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- userLogin section end -->
+  <!-- user login section end -->
+
+  <!-- products section end -->
+  <!-- footer section start -->
+  <footer class="footer" id="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Gourmet <i class="fas fa-shopping-basket"></i></h3>
+        <p>
+          Siganos en nuestras redes sociales como son:
+        </p>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-7890</a>
+        <a href="#" class="links"><i class="fas fa-phone"></i>111-222-3333</a>
+        <a href="#" class="links"><i class="fas fa-envelope"></i>caveman@gmail.com</a>
+        <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Dominican Republic</a>
+      </div>
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#home" class="links"><i class="fas fa-arrow-right"></i>home</a>
+        <a href="#AboutUs" class="links"><i class="fas fa-arrow-right"></i>Sobre Nosotros</a>
+        <a href="#features" class="links"><i class="fas fa-arrow-right"></i>Caracteristicas</a>
+        <a href="#products" class="links"><i class="fas fa-arrow-right"></i>Productos</a>
+        <a href="#userLogin" class="links"><i class="fas fa-arrow-right"></i>Cliente</a>
+      </div>
+      <div class="box">
+        <h3>Newsletter</h3>
+        <p>Suscribete para nuevos descuentos.</p>
+        <input type="email" placeholder="Inserte su email" class="email" />
+        <input type="submit" value="suscribete" class="btn" />
+        <img src="./Imagenes/payment.png" class="payment-img" alt="" />
+      </div>
+    </div>
+
+    <div class="date">
+      Fecha actual: <span id="demo"></span>
+    </div>
+  </footer>
+  <!-- footer section end -->
+
+  <!-- Javascript -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

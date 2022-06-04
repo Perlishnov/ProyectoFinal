@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gourmet ||Administradores</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- estilos -->
+  <link rel="stylesheet" href="./Estilos/style.css" />
+  <link rel="stylesheet" href="./Estilos/administradores.css" />
+</head>
+
+<body>
+  <!-- section header  -->
+  <header class="header">
+    <a href="" class="logo"><i class="fas fa-shopping-basket"></i>Gourmet</a>
+    <nav class="navbar">
+      <a href="#home">Inicio</a>
+      <a href="#pedidos">Nuestros Pedidos</a>
+      <a href="#empleados">Nuestros Empleados</a>
+    </nav>
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+  </header>
+
+  <!-- home section start -->
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Panel de <span>Administradores</span></h3>
+      <p>
+        Esta pagina posee informacion clasificada de la empresa y solo puede ser accedida por el personal autorizado
+      </p>
+    </div>
+  </section>
+  <!-- home section end -->
+
+  <!-- pedidos section start  -->
+  <section class="pedidos" id="pedidos">
+    <table class="tablePedidos">
+      <h3 class="heading">Nuestros <span>Pedidos</span> </h3>
+      <tr class="PedidoHeader">
+        <th>ID</th>
+        <th>Cliente</th>
+        <th>Productos</th>
+        <th>Direccion</th>
+        <th>Total</th>
+      </tr>
+      <tr class="Pedido">
+        <td class="">1</td>
+        <td class="">Juan Perez</td>
+        <td class="CellProducto">aguacate(3), papa(10) y repollo(2) </td>
+        <td class="">Calle Oeste #34, esq 11, Los Frailes</td>
+        <td class="">$300DOP</td>
+      </tr>
+      <tr class="Pedido">
+        <td class="">2</td>
+        <td class="">Moises Amaiama</td>
+        <td class="CellProducto"> papa(30) y repollo(2) </td>
+        <td class="">Calle Oeste #34, esq 11, Los Frailes</td>
+        <td class="">$350DOP</td>
+      </tr>
+      <tr class="Pedido">
+        <td class="">3</td>
+        <td class="">Carlos Hernández</td>
+        <td class="CellProducto">Naranja(7), papa(10) y repollo(2) </td>
+        <td class="">Calle Oeste #34, esq 11, Los Frailes</td>
+        <td class="">$600DOP</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- pedidos section end  -->
+  <!-- empleados section end  -->
+  <section class="empleados" id="empleados">
+    <table class="tableempleados">
+      <h3 class="heading">Nuestros <span>Empleados</span> </h3>
+      <tr class="empleadosHeader">
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Contraseña</th>
+      </tr>
+      <tr class="empleado">
+        <td>Irving</td>
+        <td>Peñaló</td>
+        <td>12345</td>
+      </tr>
+      <tr class="empleado">
+        <td>Isac</td>
+        <td>Peñaló</td>
+        <td>12344</td>
+      </tr>
+    </table>
+  </section>
+  <!-- footer section start -->
+  <footer class="footer" id="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Gourmet <i class="fas fa-shopping-basket"></i></h3>
+        <p>
+          Siganos en nuestras redes sociales como son:
+        </p>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-7890</a>
+        <a href="#" class="links"><i class="fas fa-phone"></i>111-222-3333</a>
+        <a href="#" class="links"><i class="fas fa-envelope"></i>caveman@gmail.com</a>
+        <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Dominican Republic</a>
+      </div>
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#home" class="links"><i class="fas fa-arrow-right"></i>home</a>
+        <a href="#pedidos" class="links"><i class="fas fa-arrow-right"></i>Nuestros Pedidos</a>
+        <a href="#empleados" class="links"><i class="fas fa-arrow-right"></i>Nuestros Empleados</a>
+      </div>
+      <div class="box">
+        <h3>Newsletter</h3>
+        <p>Suscribete para nuevos descuentos.</p>
+        <input type="email" placeholder="Inserte su email" class="email" />
+        <input type="submit" value="suscribete" class="btn" />
+        <img src="./Imagenes/payment.png" class="payment-img" alt="" />
+      </div>
+    </div>
+
+    <div class="credit">
+      Created by<span>Irving Peñaló</span>||All rights reserved
+    </div>
+  </footer>
+  <!-- footer section end -->
+  <!-- Javascript -->
+  <script src="./js/AdminMenu.js"></script>
+</body>
+
+</html>
